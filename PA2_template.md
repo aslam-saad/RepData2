@@ -124,7 +124,8 @@ storm_data %>%
     theme_bw()+
     theme(axis.text.x = element_text(angle = 90), plot.title = element_text(hjust = .5), 
          axis.title.x = element_text(color = "#113467", size = 15),
-         axis.title.y = element_text(color = "#113467", size = 15))
+         axis.title.y = element_text(color = "#113467", size = 15),
+         legend.position = "none")
 ```
 
 ![](figure/WEATHER%20FATALITIES-1.png)
@@ -170,7 +171,8 @@ storm_data %>%
     theme_bw() +
     theme(axis.text.x = element_text(angle = 90), plot.title = element_text(hjust = .5), 
          axis.title.x = element_text(color = "#113467", size = 15),
-         axis.title.y = element_text(color = "#113467", size = 15))
+         axis.title.y = element_text(color = "#113467", size = 15),
+         legend.position = "none")
 ```
 
 ![](figure/WEATHER%20INJURIES-1.png)

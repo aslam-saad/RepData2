@@ -127,7 +127,7 @@ storm_data %>%
          axis.title.y = element_text(color = "#113467", size = 15))
 ```
 
-![](WEATHER%20FATALITIES-1.png)
+![](figure/WEATHER%20FATALITIES-1.png)
 
 <font color = "#112467" face = Times New Roman size = 4px>*Top number of injuries caused by weather events*</font>
 
@@ -173,7 +173,7 @@ storm_data %>%
          axis.title.y = element_text(color = "#113467", size = 15))
 ```
 
-![](WEATHER%20INJURIES-1.png)
+![](figure/WEATHER%20INJURIES-1.png)
 
 <font color = "#354678" face = Times New Roman size = 4.5px>2- types of events have the greatest economic consequences)</font>
 
@@ -219,4 +219,4 @@ storm_data %>%
          legend.position = "none")
 ```
 
-![](DMG%20COST-1.png)
+![](figure/DMG%20COST-1.png)

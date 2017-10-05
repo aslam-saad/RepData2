@@ -40,6 +40,7 @@ library(readr)
 library(stringr)
 library(dplyr)
 library(ggplot2)
+library(R.utils)
 ```
 
 <font color = "#982446" face = Times New Roman>Importing data</font>
@@ -50,6 +51,7 @@ library(ggplot2)
 if(!file.exists("storm.csv")) {
   download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2",
   destfile = "storm.csv.bz2")
+  bunzip2("storm.csv.bz2")
     }
 
 storm_data <- read_csv("storm.csv")
@@ -83,7 +85,7 @@ storm_data <- storm_data %>%
 
 <font color = "#354678" face = Times New Roman size = 4.5px>1- Most harmful types of events (with respect to population health)</font>
 
-<font color = "#112467" face = Times New Roman size = 4px>*Top number of injuries caused by weather events*</font>
+<font color = "#112467" face = Times New Roman size = 4px>*Top number of fatalities caused by weather events*</font>
 
 ``` r
 storm_data %>%
@@ -107,7 +109,7 @@ storm_data %>%
     ##  9      HIGH WIND        248
     ## 10      AVALANCHE        224
 
-<font color = "#112467" face = Times New Roman size = 4px>*Plotting of top injuries caused by weather events*</font>
+<font color = "#112467" face = Times New Roman size = 4px>*Plotting of top fatalities caused by weather events*</font>
 
 ``` r
 storm_data %>% 

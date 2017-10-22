@@ -23,4 +23,7 @@ The events in the database start in the year 1950 and end in November 2011. In t
 ----------------------------------------------------------------
 
 The basic goal of this assignment is to explore the NOAA Storm Database and answer some basic questions about severe weather events.
-You must use the database to answer the questions below and show the code for your entire analysis. Your analysis can consist of tables, figures, or other summaries. You may use any R package you want to support your analysis.
+
+<font color = "#354678" face = Times New Roman size = 4.5px>1- Across the United States, which types of events (as indicated in the <font color = "red">EVTYPE</font> variable) are most harmful with respect to population health?</font>
+
+<font color = "#354678" face = Times New Roman size = 4.5px>2- Across the United States, which types of events have the greatest economic consequences ?</font>

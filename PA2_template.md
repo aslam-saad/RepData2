@@ -19,12 +19,6 @@ There is also some documentation of the database available. Here you will find h
 
 The events in the database start in the year 1950 and end in November 2011. In the earlier years of the database there are generally fewer events recorded, most likely due to a lack of good records. More recent years should be considered more complete.
 
-<font color = "#982446" face = Times New Roman>Assignment</font>
-----------------------------------------------------------------
-
-The basic goal of this assignment is to explore the NOAA Storm Database and answer some basic questions about severe weather events.
-You must use the database to answer the questions below and show the code for your entire analysis. Your analysis can consist of tables, figures, or other summaries. You may use any R package you want to support your analysis.
-
 <font color = "#982446" face = Times New Roman>Questions</font>
 ---------------------------------------------------------------
 

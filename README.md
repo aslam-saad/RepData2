@@ -9,7 +9,7 @@ This project involves exploring the U.S. National Oceanic and Atmospheric Admini
 <font color = "#982446" face = Times New Roman>Data</font>
 ----------------------------------------------------------
 
-The data for this assignment come in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size.
+The data for this project comes in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size.
 You can download the file from the course web site:  
 \* [Storm Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) \[47Mb\]
 
